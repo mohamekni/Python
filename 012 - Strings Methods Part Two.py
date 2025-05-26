@@ -16,6 +16,23 @@ d = "I-Love-Python-and-JavaScript-and-MySQL"
 print(d.rsplit("-",3)) # ['I-Love-Python-and', 'JavaScript', 'and', 'MySQL']
 
 # center()
-x = "Mohamed"
-print(x.center(11))
-print(x.center(11,"#"))
+e = "Mohamed"
+print(e.center(11))     #   Mohamed
+print(e.center(11,"#")) # ##Mohamed##
+
+# count()
+f = "I Love Python and PHP Because Python is easy"
+print(f.count("Python")) # 2
+print(f.count("Python",0,23)) # 1
+
+# swapcase()
+g = 'I Love Python'
+h = 'i lOVE pYTHON'
+print(g.swapcase()) # i lOVE pYTHON
+print(h.swapcase()) # I Love Python
+
+# startswith()
+k = 'I Love Python'
+print(k.startswith("I")) # True
+print(k.startswith("L")) # False
+print(k.startswith("P",7)) # True
