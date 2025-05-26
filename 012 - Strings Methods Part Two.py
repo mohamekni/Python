@@ -35,4 +35,10 @@ print(h.swapcase()) # I Love Python
 k = 'I Love Python'
 print(k.startswith("I")) # True
 print(k.startswith("L")) # False
-print(k.startswith("P",7)) # True
+print(k.startswith("P",7,12)) # True
+
+# endswith()
+l = 'I Love Python'
+print(l.endswith("n")) # True
+print(l.endswith("N")) # False
+print(l.endswith("e",2,6)) # True
