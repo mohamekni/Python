@@ -13,11 +13,11 @@ print(B.lstrip('#'))
 
 # Title()
 x = 'i love python and design and september'
-print(x.title()) # First Character To UpperCase
+print(x.title()) # I Love Python And Design And September
 
 # Capitalize()
 y = 'i Love python and design and September'
-print(y.capitalize()) # First Letter UpperCase
+print(y.capitalize()) # I love python and design and september
 
 # zfill()
 a, b, c, d= "1","2","3","1111"
@@ -28,8 +28,8 @@ print(d.zfill(4)) # 1111
 
 # upper()
 first_name = "mohamed"
-print(first_name.upper()) # UpperCase
+print(first_name.upper()) # MOHAMED
 
 # lower()
 last_name = "MOHASOGOODNOLOVE"
-print(last_name.lower()) # LowerCase
+print(last_name.lower()) # mohasogoodnolove
