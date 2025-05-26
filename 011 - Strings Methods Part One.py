@@ -11,3 +11,25 @@ print(B.strip('#'))
 print(B.rstrip('#'))
 print(B.lstrip('#'))
 
+# Title()
+x = 'i love python and design and september'
+print(x.title()) # First Character To UpperCase
+
+# Capitalize()
+y = 'i Love python and design and September'
+print(y.capitalize()) # First Letter UpperCase
+
+# zfill()
+a, b, c, d= "1","2","3","1111"
+print(a.zfill(4)) # 0001
+print(b.zfill(4)) # 0002
+print(c.zfill(4)) # 0003
+print(d.zfill(4)) # 1111
+
+# upper()
+first_name = "mohamed"
+print(first_name.upper()) # UpperCase
+
+# lower()
+last_name = "MOHASOGOODNOLOVE"
+print(last_name.lower()) # LowerCase
