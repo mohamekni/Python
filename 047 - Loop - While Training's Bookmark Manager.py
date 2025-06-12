@@ -2,9 +2,7 @@
 
 
 # Empty List To Fill 
-myFavoriteGames = [
-
-]
+myFavoriteGames = []
 
 # Max Games
 maxGames = 5
