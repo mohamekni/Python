@@ -1,5 +1,8 @@
-[1] - Python
-[2] - JavaScript
-[3] - Java
-[4] - PHP
-[5] - C#
+[1] - HTML 
+   [2] - CSS                
+   [3] - JavaScript         
+   [4] - Python             
+   [5] - Java               
+   [6] - PHP                
+   [7] - C                  
+   [8] - C#
