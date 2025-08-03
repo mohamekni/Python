@@ -33,5 +33,6 @@ for name in result:
 # Example 3
     
 myTexts = ["Mohamed", "Polak" , "Moha"]
+
 for name in filter(lambda name: name.startswith('M'), myTexts):
     print(name)
